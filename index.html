@@ -7,20 +7,86 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Elisangela Andrade</h1>
-    </header>
+    <section>
+        <header>
+            <h1>Elisangela Andrade</h1>
+        </header>
     
-   <div class="nomeFoto">
-      <img src="assets/Imagem1.png" alt="foto de perfil">
-   </div>
+        <div class="nomeFoto">
+            <img src="assets/Imagem1.png" alt="foto de perfil">
+        </div>
 
-   <div class="texto">
-     <h2>Sobre mim</h2>
-     <p>Olá, me chamo Elisangela, sou formada em Licenciatura em Turismo, mas não me indentifico na área, gosto muito da parte de administração e organização de eventos, porém, no momento atual estou buscando algo que me de mais qualidade de vida e seja prazeroso. Quando mais jovem, eu trabalhava com montagem e manutenção de computadores e notebooks, acabei por fazer outras coisas e 'deixei de lado' a informática. No entanto, é uma área que gosto muito, e resolvi resgatar essa vontade antiga de aprender a programar. Espero sinceramente que não seja tarde, por já estar com quarenta anos, e estou aproveitando todas as oportunidades de aprendizado, para realizar esse objetivo.</p>
-   </div>
-   <footer class="linkDaRede">
+        <div class="texto">
+        <h2><em>Sobre mim</em></h2>
+            <p>Olá, me chamo Elisangela, sou formada em Licenciatura em Turismo, mas não me indentifico na área, gosto muito da parte de administração e organização de eventos, porém, no momento atual estou buscando algo que me de mais qualidade de vida e seja prazeroso. Quando mais jovem, eu trabalhava com montagem e manutenção de computadores e notebooks, acabei por fazer outras coisas e 'deixei de lado' a informática. No entanto, é uma área que gosto muito, e resolvi resgatar essa vontade antiga de aprender a programar. Espero sinceramente que, pela idade não seja tarde. Estou aproveitando todas as oportunidades de aprendizado, para realizar esse objetivo.</p>
+        </div>
+
+    </section>
+
+    <section>
+    <div id="atividade2">
+        <h1>Entre em contato</h1>
+    </div>
+        <form action="#" method="post">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" min="0" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+
+            <input type="submit" value="Enviar">
+
+
+        </form>
+
+    </section>
+    <section>
+        <div class="listaTitulo">
+        <h2>Listas</h2>
+        </div>
+
+           
+            <div class="listaTexto">
+                <div>
+                    <h3>Habilidades</h3>
+                </div>
+    
+                <div>
+                    <h3>Objetivos</h3>
+                </div>
+            </div>
+        
+        <div class="listas">   
+            <div>   
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ol>
+            </div>
+            <div>
+                
+                <ul>
+                    <li>Front-End</li>
+                    <li>Mobile</li>
+                    <li>Back-End</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<footer class="linkDaRede">
     <a href="https://www.linkedin.com/in/elisangela-andrade-2b7053224/"><img src="assets/klipartz.com.png" alt="logo do linkedin"></a>
-   </footer>
+</footer>
 </body>
 </html>
